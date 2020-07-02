@@ -3,12 +3,12 @@ package main
 import (
 	"crypto/sha256"
 	"encoding/hex"
-	"time"
-	"github.com/joho/godotenv"
 	"github.com/davecgh/go-spew/spew"
-	"net/http"
 	"github.com/gorilla/mux"
+	"github.com/joho/godotenv"
 	"io"
+	"net/http"
+	"time"
 )
 
 import (
